@@ -1,4 +1,4 @@
-[
+
   {"result":"https://opedyboy.sirv.com/Menu/eren.jpeg"},
   {"result":"https://opedyboy.sirv.com/Menu/f.jpeg"},
   {"result":"https://opedyboy.sirv.com/Menu/images.jpeg"},
@@ -14,4 +14,4 @@
   {"result":"https://opedyboy.sirv.com/Menu/twn.jpeg"},
   {"result":"https://opedyboy.sirv.com/Menu/v.jpeg"},
   {"result":"https://opedyboy.sirv.com/Menu/xo.jpeg"}
-  ]
+  
