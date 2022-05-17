@@ -1,0 +1,133 @@
+COMANDOS DO HEROKU ATUALIZADO. @M.Scheyot
+
+
+1 COMANDO
+
+npm i -g npm@6 && npm i heroku -g
+
+------------------------------
+
+
+2 COMANDO.
+
+heroku login -i
+
+------------------------------
+
+3 COMANDO...
+
+termux-setup-storage
+
+------------------------------
+
+ 4 COMANDO...
+
+cd /sdcard/SAKURA-MDV2
+OU
+
+cd /sdcard/download/SAKURA-MDV2
+
+------------------------------
+
+5 COMANDO..
+
+pkg install git -y
+
+------------------------------
+
+
+6 COMANDO
+
+rm -rf .git
+
+------------------------------
+
+
+7 COMANDO...
+
+git init
+
+------------------------------
+
+8 COMANDO
+
+git config --global user.email "blablablabla@gmail.com" 
+
+git config --global user.name "blabla" 
+
+------------------------------
+
+9 COMANDO..
+
+
+git config --global --add safe.directory /storage/emulated/0/SAKURA-MDV2
+
+OU
+git config --global --add safe.directory /storage/emulated/0/Download/SAKURA-MDV2
+
+
+10 COMANDO ....
+
+heroku apps:create CRIE UM NOME PRO SEU PERFIL.
+
+
+11 COMANDO..
+
+heroku buildpacks:add heroku/nodejs
+
+
+12 COMANDO...
+
+heroku git:remote -a NOME DO APP Q VC CRIOU.
+
+------------------------------
+
+
+13 COMANDO....
+
+heroku buildpacks:add https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
+
+------------------------------
+
+14 COMANDO....
+
+heroku buildpacks:add https://github.com/clhuang/heroku-buildpack-webp-binaries.git
+
+------------------------------
+15 COMANDO..
+
+git config --global user.email "tantofaz@gmail.com" git config --global user.name "TantoFaz"
+
+------------------------------
+
+
+16 COMANDO....
+
+git add .
+
+------------------------------
+
+
+17 COMANDO.....
+
+git commit -am "blabla"
+
+------------------------------
+
+
+18 COMANDO...
+
+git push heroku master
+
+------------------------------
+
+
+PARA ATUALIZAR BASTA BOTAR.
+
+cd /sdcard/SAKURA-MDV2
+
+
+sh heroku.sh
+
+
+     FIM!!
