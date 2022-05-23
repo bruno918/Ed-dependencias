@@ -22,10 +22,7 @@ termux-setup-storage
 
  4 COMANDO...
 
-cd /sdcard/SAKURA-MDV2
-OU
-
-cd /sdcard/download/SAKURA-MDV2
+cd edbot
 
 ------------------------------
 
@@ -60,10 +57,8 @@ git config --global user.name "blabla"
 9 COMANDO..
 
 
-git config --global --add safe.directory /storage/emulated/0/SAKURA-MDV2
+git config --global --add safe.directory /edbot
 
-OU
-git config --global --add safe.directory /storage/emulated/0/Download/SAKURA-MDV2
 
 
 10 COMANDO ....
@@ -120,14 +115,6 @@ git commit -am "blabla"
 git push heroku master
 
 ------------------------------
-
-
-PARA ATUALIZAR BASTA BOTAR.
-
-cd /sdcard/SAKURA-MDV2
-
-
-sh heroku.sh
 
 
      FIM!!
