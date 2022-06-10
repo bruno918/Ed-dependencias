@@ -25,4 +25,6 @@ cd satorumd
 
 git clone https://github.com/bruno918/node_modules.git
 
-sh gojo.sh
+node index.js
+
+Após escanear o qr, inicie com ah gojo.sh
