@@ -27,4 +27,4 @@ git clone https://github.com/bruno918/node_modules.git
 
 node index.js
 
-Após escanear o qr, inicie com ah gojo.sh
+Após escanear o qr, inicie com sh gojo.sh
